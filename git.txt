@@ -2,7 +2,7 @@ git config --global user.email "khamdanannasfakhryza@gmail.com"
 
 git init
 
-git remote add origin https://github.com/khamdanaf/Javascript
+git remote add origin https://github.com/khamdanaf/Javascript.git
 
 git commit -m "menentukan pesan"
 
