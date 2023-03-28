@@ -1,0 +1,9 @@
+git config --global user.email "khamdanannasfakhryza@gmail.com"
+
+git init
+
+git remote add origin https://github.com/khamdanaf/Javascript
+
+git commit -m "menentukan pesan"
+
+git push -u origin master
