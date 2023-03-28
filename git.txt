@@ -7,3 +7,14 @@ git remote add origin https://github.com/khamdanaf/Javascript.git
 git commit -m "menentukan pesan"
 
 git push -u origin master
+
+
+
+urutan perubahan
+ git add
+git commit -m "pesan yan di tulis"
+git push
+
+
+untuk mengikuti data di repository github
+git pull
