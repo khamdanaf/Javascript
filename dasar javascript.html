@@ -89,26 +89,75 @@ SISA BAGI %
 let result =1+2;
 document.writeln("<p>2+2=" + result + "</p>");
 let originalResult = result;
-
 result = result - 2;
 document.writeln("<p>"+ originalResult + " - 2 = " + result + "</p>");
- originalResult= result;
-
-result =result *4;
-document.writeln("<p>"+originalResult+ "* 2=" + result + "</p>")
 originalResult= result;
-
+result =result *4;
+document.writeln("<p>"+originalResult+ "* 2=" + result + "</p>");
+originalResult= result;
 result =result /2;
-document.writeln("<p>"+originalResult+ "/ 2=" + result + "</p>")
-originalresult= result
-
+document.writeln("<p>"+originalResult+ "/ 2=" + result + "</p>");
+originalresult= result;
 result =result ** 2;
-document.writeln("<p>"+originalResult+" ** 2=" + result + "</p>")
-originalresult= result
-
+document.writeln("<p>"+originalResult+" ** 2=" + result + "</p>");
+originalresult= result;
 result =result % 0.0002;
-document.writeln("<p>"+originalResult+" % 2=" + result + "</p>")
-originalresult= result
+document.writeln("<p>"+originalResult+" % 2=" + result + "</p>");
+originalresult= result;
+
+//operator augmented asigment
+let result2 =2+2;
+document.writeln("<p>2+2=" + result2 + "</p>");
+let originalResult2 = result2;
+result -= 2;
+document.writeln("<p>"+ originalResult2 + " - 2 = " + result2 + "</p>");
+originalResult2= result2;
+result2 *= 4;
+document.writeln("<p>"+originalResult2+ "* 4=" + result2 + "</p>");
+originalResult2= result2;
+result2 /=2;
+document.writeln("<p>"+originalResult2+ "/ 2=" + result2 + "</p>");
+originalresult2= result2;
+result2 **= 2;
+document.writeln("<p>"+originalResult2+" ** 2=" + result2 + "</p>");
+originalresult2= result2;
+result2 %= 0.0002;
+document.writeln("<p>"+originalResult2+" % 0.0002=" + result2 + "</p>");
+originalresult2= result2;
+
+/*operator UNARY
++ menambah
+-mengurangi
+--mengurangi 1
+++menaikkan 1
+*/
+let hitung = +4;
+document.writeln("<p>"+ hitung + "</p>");
+hitung--;
+document.writeln("<p>"+ hitung + "</p>");
+hitung++;
+
+//operator perbandingan
+let hasil = 5 == "5";
+document.writeln("<p>"+ hasil + "</p>");
+hasil = 5 === "5";
+document.writeln("<p>"+ hasil + "</p>");
+hasil = 5 < "5";
+document.writeln("<p>"+ hasil + "</p>");
+hasil = 5 > "5";
+document.writeln("<p>"+ hasil + "</p>");
+hasil = 5 >= "5";
+document.writeln("<p>"+ hasil + "</p>");
+hasil = 5 != "5";
+document.writeln("<p>"+ hasil + "</p>");
+hasil = 5 !== "5";
+document.writeln("<p>"+ hasil + "</p>");
+
+//Operator Logika untuk  type data boolean && dan || atau  !kebalikan
+//&& kalau keduanya true hasilnya true, kalo salah satu atau keduanya false maka hasil false
+//|| kalau keduanyat true atau salah satu true maka hasil true,kalo keduanya false maka hasil false
+//! false maka hasilnya true,, kalo !true maka hasilnya false
+
 
 
 
