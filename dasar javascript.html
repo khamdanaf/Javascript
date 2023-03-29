@@ -157,8 +157,56 @@ document.writeln("<p>"+ hasil + "</p>");
 //&& kalau keduanya true hasilnya true, kalo salah satu atau keduanya false maka hasil false
 //|| kalau keduanyat true atau salah satu true maka hasil true,kalo keduanya false maka hasil false
 //! false maka hasilnya true,, kalo !true maka hasilnya false
+const nilaiujian = 70;
+const nilai_absensi =80;
+const lulusUjian = nilaiujian >75;
+document.writeln(lulusUjian);
+const lulus_absensi=nilai_absensi >75;
+document.writeln(lulus_absensi);
+const lulus = lulusUjian&& lulus_absensi;
+document.writeln(lulus);
 
+/*console
+console.info()memberi informasi
+console.warn()memberi peringatan
+console.error()memberi tau erorr program
+console.table()
+*/
+console.debug("ono seng aneh")
+//console.info("BELAJAR JAVASCRIPT")
+console.warn("peringatan jalan program")
+console.error("error programnya gak beres")
 
+//string tamplate
+const name ="khamdan annas fakhryza";
+//const template = `name : ${name}`;
+//console.info(template);
+
+//kode expression di string tamplate
+const nama = "Efa Yumna Purwono";
+const nilai = 85;
+const template = `nama: ${nama} ,Lolos : ${nilai >80}`;
+console.info(template);
+
+//kode multi line string
+let mulltilinestring = `
+namaku khamdan annas fakhryza
+asal semarang
+kamu siapa kepo sekali
+ini mau coba program lho`;
+document.writeln("<pre>");
+document.writeln(mulltilinestring)
+document.writeln("</pre>");
+
+// konversi sting dan number(agar  operasi matematika berhasil)
+//parseInt(string) number ke sting
+//parseFloat(string) number ke sting
+//Number(string) number ke string
+//number.toString() KONVERSI DARO NUMBER KE  STRING
+const value1 = parseInt("8");
+const value2 = 12;
+const hasil2 = value1 + value2;
+document.writeln(`<p>${hasil2}</p>`);
 
 
 </script>
