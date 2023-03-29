@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+</head>
+<body>
+<script>
+// menampilakn tulisan "Hello_word"
+    document.writeln("Hello Word");
+//membuat tampilan jadi satuparagraf <p>
+document.writeln("<p> hello komentar </p>");
+document.writeln("<p> lebih dari satu baris </p>");
+
+/*
+komen untuk lebih dari satu baris
+ */
+// tipe data nummber
+document.writeln(100);
+document.writeln("</br>");
+document.writeln(120.23);
+
+//number notation
+document.writeln("<br/>")
+document.writeln(0b011011);
+//document.writeln(0FF)
+//document.writeln(0o10)
+
+//tipe data boolean
+document.writeln("<br/>")
+document.writeln(true);
+document.writeln("<br/>");
+document.writeln(false);
+
+//tipe data string atau text yaitu menggunakan petik 2 " "
+//dan menambah string
+document.writeln("</br>");
+document.writeln("Nama : "+ "Khamdan Annas Fakhryza");
+document.writeln("</br>");
+document.writeln("Tujuan : "+"belajar javascript");
+document.writeln("</br>");
+
+//menambah sring menggunakan escape sequesnce
+document.writeln("<textarea cols='100' rows='10'>");
+document.write("\nkhamdan annas fakhryza\n");
+document.write("\\Home\\annas\n");
+document.write("\"Belajar Javasript\"\n");
+document.write("\'asal ungaran\'\n");
+document.writeln("</textarea>");
+
+//variable
+var fullName;
+var namedpn;
+var nametng;
+var nameakhr;
+fullName = "Khamdan Annas Fakhryza"
+namedpn = "Khamdan"
+nametng = "Annas"
+nameakhr = "Fakhryza"
+document.writeln("</br>");
+document.writeln("Nama : "+ nameakhr);
+
+// kata kunci let
+let fullNama;
+let namedepan;
+let nametengah;
+let nameakhir;
+fullNama = "Khamdan Annas Fakhryza"
+namedepan = "Khamdan"
+nametengah = "Annas"
+nameakhir = "Fakhryza"
+document.writeln("</br>");
+document.writeln("Nama : "+ namedepan+ " " + nameakhir);
+
+//kata kunci const yang ber arti konstan dan tidak bisa di rubah2
+document.writeln("</br>");
+const application = "Belajar Javascript Dasar";
+//application ="Gak mau beljar";
+document.writeln(application)
+
+/*operasi aritmatika
+PERTAMBAHAN +
+PENGURANGAN -
+PERKALIAN *
+EXPONENSIAL **
+PEMBAGIAN /
+SISA BAGI %
+*/
+let result =1+2;
+document.writeln("<p>2+2=" + result + "</p>");
+let originalResult = result;
+
+result = result - 2;
+document.writeln("<p>"+ originalResult + " - 2 = " + result + "</p>");
+ originalResult= result;
+
+result =result *4;
+document.writeln("<p>"+originalResult+ "* 2=" + result + "</p>")
+originalResult= result;
+
+result =result /2;
+document.writeln("<p>"+originalResult+ "/ 2=" + result + "</p>")
+originalresult= result
+
+result =result ** 2;
+document.writeln("<p>"+originalResult+" ** 2=" + result + "</p>")
+originalresult= result
+
+result =result % 0.0002;
+document.writeln("<p>"+originalResult+" % 2=" + result + "</p>")
+originalresult= result
+
+
+
+</script>
+</body>
+</html>
